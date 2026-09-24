@@ -183,6 +183,33 @@ section {
   margin-bottom: 18px;
 }
 
+.hero-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.hero-meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid rgba(126, 246, 179, 0.14);
+  border-radius: 999px;
+  background: rgba(126, 246, 179, 0.04);
+  color: var(--soft);
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.hero-email {
+  color: var(--accent);
+}
+
 .hero-copy h1 {
   margin: 0;
   font-size: clamp(3.6rem, 7vw, 7.4rem);

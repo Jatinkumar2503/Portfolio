@@ -4,6 +4,8 @@ export const profile = {
   headline:
     "Building intelligent systems at the intersection of AI, simulation, optimization and scientific computing.",
   summary: "Computer Science • Machine Learning • Multi-Agent Systems • Research",
+  student: "DCRUST Murthal • 3rd Year CSE Student",
+  email: "jatinbaberwal230@gmail.com",
   role: "AI/ML Engineer & Researcher",
   metaTitle: "Jatin Kumar — AI/ML Engineer & Researcher",
   metaDescription:

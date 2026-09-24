@@ -148,12 +148,19 @@ export default function PortfolioPage() {
               transition={{ duration: 0.6, ease: "easeOut" }}
             >
               <p className="eyebrow">{profile.tag}</p>
+              <div className="hero-meta-row">
+                <span className="hero-meta-item">{profile.student}</span>
+                <a href={`mailto:${profile.email}`} className="hero-meta-item hero-email" data-cursor-hover>
+                  {profile.email}
+                </a>
+              </div>
               <h1>{profile.name}</h1>
               <p className="hero-headline">{profile.headline}</p>
               <p className="hero-summary">{profile.summary}</p>
 
               <div className="hero-actions">
                 <ActionButton href="#work">EXPLORE WORK</ActionButton>
+                <ActionButton href={`mailto:${profile.email}`} variant="secondary">EMAIL</ActionButton>
                 <ActionButton href={socials.github} variant="secondary">GITHUB</ActionButton>
                 <ActionButton href={socials.linkedin} variant="secondary">LINKEDIN</ActionButton>
               </div>
