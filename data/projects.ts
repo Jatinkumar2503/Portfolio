@@ -14,6 +14,7 @@ export type Project = {
   metrics: Metric[];
   technologies: string[];
   links: { label: string; href: string; primary?: boolean }[];
+  previewImages: string[];
   tone: "emerald" | "cyan" | "slate";
 };
 
@@ -54,8 +55,17 @@ export const projects: Project[] = [
     ],
     links: [
       { label: "VIEW PROJECT", href: "#work", primary: true },
-      { label: "GITHUB", href: "https://github.com/Jatinkumar2503" },
-      { label: "LIVE DEMO", href: "#" },
+      { label: "GITHUB", href: "https://github.com/Jatinkumar2503/Nexus--AI.git" },
+      { label: "LIVE DEMO", href: "https://nexus-ai-7nb2.vercel.app/" },
+    ],
+    previewImages: [
+      "/projects/nexus-ai.png",
+      "/projects/nexusai.png.png",
+      "/projects/nexusai2.png.png",
+      "/projects/nexusai3.png.png",
+      "/projects/nexusai5.png.png",
+      "/projects/nexsuai4 (1).png",
+      "/projects/nexsuai4 (2).png",
     ],
     tone: "emerald",
   },
@@ -97,8 +107,13 @@ export const projects: Project[] = [
     ],
     links: [
       { label: "VIEW PROJECT", href: "#work", primary: true },
-      { label: "GITHUB", href: "https://github.com/Jatinkumar2503" },
-      { label: "DOI", href: "https://dx.doi.org/10.2139/ssrn.7177076" },
+      { label: "GITHUB", href: "https://github.com/Jatinkumar2503/Prajna.git" },
+    ],
+    previewImages: [
+      "/projects/prajna.png",
+      "/projects/prajna.png.png",
+      "/projects/prajna.png (2).png",
+      "/projects/prajna.svg",
     ],
     tone: "cyan",
   },
@@ -135,7 +150,15 @@ export const projects: Project[] = [
     ],
     links: [
       { label: "VIEW PROJECT", href: "#work", primary: true },
-      { label: "GITHUB", href: "https://github.com/Jatinkumar2503" },
+      { label: "GITHUB", href: "https://github.com/Jatinkumar2503/Pragati---AI-sustainable-energy-.git" },
+    ],
+    previewImages: [
+      "/projects/pragati-ai.png",
+      "/projects/pragati (1).png",
+      "/projects/pragati (2).png",
+      "/projects/pragati (3).png",
+      "/projects/pragati (4).png",
+      "/projects/pragati (5).png",
     ],
     tone: "slate",
   },

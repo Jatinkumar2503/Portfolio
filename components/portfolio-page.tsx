@@ -1,10 +1,11 @@
 "use client";
 
+import Image from "next/image";
 import { motion, useReducedMotion } from "framer-motion";
 import { ArrowRight, MoveRight } from "lucide-react";
 import { useEffect, useState } from "react";
 
-import { achievements } from "@/data/achievements";
+import { achievements, certifications } from "@/data/achievements";
 import { experience } from "@/data/experience";
 import { profile, navigation } from "@/data/site";
 import { projects } from "@/data/projects";
@@ -259,28 +260,40 @@ export default function PortfolioPage() {
                     <span className="dot" />
                   </div>
 
-                  <div className="visual-grid">
-                    {Array.from({ length: 9 }).map((_, cellIndex) => (
-                      <motion.div
-                        key={`${project.name}-${cellIndex}`}
-                        className="visual-cell"
-                        animate={{
-                          opacity: [0.45, 1, 0.6],
-                          scale: [0.96, 1, 0.98],
-                          y: [0, -4, 0],
-                        }}
-                        transition={{
-                          duration: 2.8 + cellIndex * 0.2,
-                          repeat: Infinity,
-                          repeatType: "reverse",
-                          ease: "easeInOut",
-                          delay: cellIndex * 0.12,
-                        }}
-                        style={{
-                          animationDelay: `${cellIndex * 0.15}s`,
-                        }}
-                      />
-                    ))}
+                  <div className="visual-grid visual-grid-compact">
+                    {Array.from({ length: 5 }).map((_, cellIndex) => {
+                      const imageSrc = project.previewImages[cellIndex % project.previewImages.length];
+
+                      return (
+                        <motion.div
+                          key={`${project.name}-${imageSrc}-${cellIndex}`}
+                          className="visual-cell"
+                          animate={{
+                            opacity: [0.55, 1, 0.7],
+                            scale: [0.98, 1, 0.99],
+                            y: [0, -3, 0],
+                          }}
+                          transition={{
+                            duration: 2.8 + cellIndex * 0.2,
+                            repeat: Infinity,
+                            repeatType: "reverse",
+                            ease: "easeInOut",
+                            delay: cellIndex * 0.1,
+                          }}
+                          style={{
+                            animationDelay: `${cellIndex * 0.15}s`,
+                          }}
+                        >
+                          <Image
+                            src={imageSrc}
+                            alt={`${project.name} project system preview`}
+                            fill
+                            sizes="(max-width: 768px) 50vw, 14vw"
+                            className="visual-image"
+                          />
+                        </motion.div>
+                      );
+                    })}
                   </div>
 
                   <div className="visual-footer">
@@ -441,9 +454,25 @@ export default function PortfolioPage() {
           </div>
         </section>
 
+        <section className="section-shell" id="certifications">
+          <div className="section-heading">
+            <SectionLabel>06 / CERTIFICATIONS</SectionLabel>
+          </div>
+
+          <div className="cert-grid">
+            {certifications.map((cert) => (
+              <div key={cert.name} className="cert-card">
+                <span className="mono cert-type">{cert.type}</span>
+                <strong>{cert.name}</strong>
+                <span className="cert-issuer">{cert.issuer}</span>
+              </div>
+            ))}
+          </div>
+        </section>
+
         <section className="section-shell" id="technology">
           <div className="section-heading">
-            <SectionLabel>06 / TECHNOLOGY</SectionLabel>
+            <SectionLabel>07 / TECHNOLOGY</SectionLabel>
           </div>
 
           <div className="tech-grid">

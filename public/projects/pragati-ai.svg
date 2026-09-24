@@ -1,0 +1,26 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="900" fill="#070D0B"/>
+  <rect x="46" y="46" width="808" height="808" rx="40" fill="#0B1714" stroke="#7EF6B3" stroke-opacity="0.18"/>
+  <g opacity="0.9">
+    <path d="M168 610H724" stroke="#7EF6B3" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round"/>
+    <path d="M240 250V610" stroke="#7EF6B3" stroke-opacity="0.32" stroke-width="3" stroke-linecap="round"/>
+    <path d="M432 250V610" stroke="#7EF6B3" stroke-opacity="0.32" stroke-width="3" stroke-linecap="round"/>
+    <path d="M624 250V610" stroke="#7EF6B3" stroke-opacity="0.32" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g>
+    <rect x="168" y="352" width="152" height="126" rx="18" fill="#10251D" stroke="#7EF6B3" stroke-opacity="0.4"/>
+    <rect x="372" y="312" width="162" height="164" rx="18" fill="#10251D" stroke="#7EF6B3" stroke-opacity="0.4"/>
+    <rect x="578" y="276" width="160" height="200" rx="18" fill="#10251D" stroke="#7EF6B3" stroke-opacity="0.4"/>
+  </g>
+  <g fill="#D9FBE6" font-family="Arial, sans-serif" letter-spacing="2">
+    <text x="194" y="424" font-size="22">LOAD</text>
+    <text x="409" y="392" font-size="22">OPT</text>
+    <text x="620" y="340" font-size="22">SUST</text>
+  </g>
+  <g fill="#7EF6B3" opacity="0.8">
+    <circle cx="238" cy="610" r="12"/>
+    <circle cx="432" cy="610" r="12"/>
+    <circle cx="624" cy="610" r="12"/>
+  </g>
+  <text x="270" y="770" fill="#7EF6B3" font-family="Arial, sans-serif" font-size="38" letter-spacing="8">PRAGATI AI</text>
+</svg>

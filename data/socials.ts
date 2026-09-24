@@ -3,5 +3,5 @@ export const socials = {
   linkedin: "https://www.linkedin.com/",
   orcid: "https://orcid.org/",
   ssrn: "https://www.ssrn.com/index.cfm/en/",
-  email: null as string | null,
+  email: "jatinbaberwal230@gmail.com",
 };

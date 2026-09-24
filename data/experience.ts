@@ -6,6 +6,12 @@ export type ExperienceItem = {
 
 export const experience: ExperienceItem[] = [
   {
+    period: "2024 — 2025",
+    title: "ML & Automation Intern — Rollo Tech",
+    description:
+      "ML / AUTOMATION • INTERNSHIP • ROLLO TECH • Worked across automation workflows, machine-learning-driven components, API-based integrations, reverse engineering of technical workflows and systems, simulation and experimentation, and engineering automation. Focused on practical tooling, workflow engineering, and technical experimentation without overstating scale or business impact.",
+  },
+  {
     period: "2024 — PRESENT",
     title: "Independent Research & Engineering Work",
     description:

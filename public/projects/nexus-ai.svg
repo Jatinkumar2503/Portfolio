@@ -1,0 +1,32 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="900" fill="#06110E"/>
+  <rect x="46" y="46" width="808" height="808" rx="40" fill="#0B1713" stroke="#7EF6B3" stroke-opacity="0.22"/>
+  <g opacity="0.9">
+    <circle cx="222" cy="222" r="42" fill="#7EF6B3" fill-opacity="0.2"/>
+    <circle cx="222" cy="222" r="17" fill="#7EF6B3"/>
+    <circle cx="520" cy="254" r="36" fill="#7EF6B3" fill-opacity="0.15"/>
+    <circle cx="520" cy="254" r="13" fill="#7EF6B3"/>
+    <circle cx="672" cy="524" r="42" fill="#7EF6B3" fill-opacity="0.18"/>
+    <circle cx="672" cy="524" r="16" fill="#7EF6B3"/>
+    <circle cx="298" cy="618" r="38" fill="#7EF6B3" fill-opacity="0.18"/>
+    <circle cx="298" cy="618" r="14" fill="#7EF6B3"/>
+  </g>
+  <g stroke="#7EF6B3" stroke-opacity="0.45">
+    <path d="M222 222L520 254L672 524L298 618L222 222Z" fill="none" stroke-width="2"/>
+    <path d="M520 254L298 618" stroke-width="2"/>
+    <path d="M672 524L222 222" stroke-width="2"/>
+  </g>
+  <g opacity="0.9">
+    <rect x="160" y="140" width="120" height="120" rx="18" fill="#0F241D" stroke="#7EF6B3" stroke-opacity="0.36"/>
+    <rect x="470" y="170" width="150" height="110" rx="18" fill="#0F241D" stroke="#7EF6B3" stroke-opacity="0.36"/>
+    <rect x="560" y="430" width="170" height="120" rx="18" fill="#0F241D" stroke="#7EF6B3" stroke-opacity="0.36"/>
+    <rect x="210" y="520" width="170" height="120" rx="18" fill="#0F241D" stroke="#7EF6B3" stroke-opacity="0.36"/>
+  </g>
+  <g fill="#D8FBE8" font-family="Arial, sans-serif" letter-spacing="2">
+    <text x="195" y="210" font-size="24">SIM</text>
+    <text x="515" y="238" font-size="22">GRAPH</text>
+    <text x="607" y="500" font-size="22">AI</text>
+    <text x="254" y="590" font-size="22">SAFE</text>
+  </g>
+  <text x="320" y="770" fill="#7EF6B3" font-family="Arial, sans-serif" font-size="42" letter-spacing="8">NEXUS AI</text>
+</svg>
